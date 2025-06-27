@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "streamlit-news"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.45.1"
+pandas = "^2.3.0"
+plotly = "^6.1.2"
+watchdog = "^6.0.0"
+wordcloud = "^1.9.4"
+matplotlib = "^3.10.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
